@@ -1,0 +1,418 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+ul,li{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+body{
+	background-color: #f8f7f6;
+}
+.clear:after{
+	content: "";
+	height: 0;
+	display: block;
+	clear: both;
+}
+.cover{
+	height: 130px;
+	width: 100%;
+	z-index: 1;
+	background-color: #fff;
+}
+.top{
+	width: 1180px;
+	height: 30px;
+	margin: 0 auto;
+	margin-top: 5px;
+}
+.top_a{
+	float: left;
+}
+.top a{
+	color: #9a9791;
+}
+.top_aaa {
+	float: right;
+}
+.top_aaa a{
+	margin-left: 14px;
+	display: inline-block;
+}
+.top_aaa a:hover {
+	color: #fe6c00;
+}
+.top_search{
+	width: 1180px;
+	height: 90px;
+	margin: 0 auto;
+	margin-top: 5px;
+}
+.top_search>img{
+	float: left;
+}
+.search{
+	width: 494px;
+	height: 34px;
+	border:3px #fe6c00 solid;
+	float: left;
+	margin-left: 107px;
+	margin-top: 15px;
+}
+.top_search .top_search_ul1 li:last-child{
+	width: 80px;
+	line-height: 40px;
+	margin-top: 15px;
+	text-align: center;
+	font-family: '微软雅黑';
+	font-size: 16px;
+	color: #ffffff;
+	background-color: #fe6c00;
+	float: left;
+}
+.top_search_ul2 li:first-child{
+	margin-left: 90px;
+}
+.top_search_ul2 li{
+	width: 84px;
+	height: 38px;
+	border:1px #e6e5e2 solid;
+	text-align: center;
+	margin-top: 15px;
+	color: #9a9791;
+	display: inline;
+	float: left;
+}
+.top_search_ul2 img {
+	padding-left: 32px;
+	padding-top: 3px;
+	float: left;
+}
+.num span{
+	float: left;
+}
+.top_search_ul3{
+	display: inline-block;
+	margin-left: 105px;
+}
+.top_search_ul3 li{
+	margin-top: 12px;
+	float: left;
+}
+.top_search_ul3 li a{
+	padding:0 9px;
+	font-family: '微软雅黑';
+	color: #666560;
+	border-right:1px solid #a4a4a4;
+}
+.top_search_ul3 li:last-child a{
+	border-right-style: none;
+}
+.nav1{
+	height: 41.5px;
+	width: 100%;
+	border-bottom: 1px #fe6c00 solid;
+	background-color: #fff;
+}
+.nav{
+	width: 1180px;
+	margin: 0 auto;
+}
+.nav ul{
+	display: inline-block;
+}
+.nav ul li{
+	width: 109px;
+	line-height: 40px;
+	text-align: center;
+	float: left;
+}
+.nav ul li a{
+	font-size: 16px;
+	color: #000;
+}
+.nav ul li:first-child{
+	width: 170px;
+	color: #fff;
+	text-align: center;
+	background-color: #fe6c00;
+}
+.main{
+	width: 1180px;
+	height: 551px;
+	margin: 0 auto;
+}
+.main_ul1{
+	width: 25px;
+	height: 422px;
+	text-align: center;
+	background-color: #4c4c4a;
+	font-size: 16px;
+	color: #ff4d4b;
+	float: left;
+	border-bottom:1px #fe6c00 solid;
+}
+.first{
+	display: block;
+	padding-top: 23px;
+}
+.second{
+	display: block;
+	padding-top: 30px;
+}
+.main_ul2{
+	width: 145px;
+	height: 422px;
+	float: left;
+	border-bottom:1px #fe6c00 solid;
+	background-color: #fff;
+}
+.main_ul2 a:hover {
+	color: #fe6c00;
+}
+.main_ul2 li{
+	margin-top: 16.2px;
+}
+.main_ul2 li a{
+	padding-left: 8px;
+	color: #000;
+}
+.main_ul2 li:first-child{
+	margin-top: 14px;
+}
+/*轮播图部分*/
+.main_middle{
+	width: 800px;
+	height: 361px;
+	float: left;
+	position: relative;
+	overflow: hidden;
+}
+.slider{
+	width: 6400px;
+	position: absolute;
+	left: -800px;
+}
+.slide{
+	width: 800px;
+	overflow: hidden;
+	float: left;
+}
+.box>span{
+	display: block;
+	width: 30px;
+	height: 50px;
+	text-align: center;
+	cursor: pointer;
+	color: #fff;
+	top: 175px;
+	line-height: 50px;
+	background: rgb(255,0,0);
+	font-size: 30px;
+	position: absolute;
+	/* display: none; */
+	opacity: 0;
+}
+#left{
+	left: 30px;
+}
+#right{
+	right: 30px;
+}
+.box_nav{
+	position: absolute;
+	left: 320px;
+	bottom: 20px;
+}
+.box_nav>li{
+	float: left;
+	width: 20px;
+	height: 20px;
+	background: #ccc;
+	cursor: pointer;
+	margin: 0 3px;
+	font-size: 15px;
+	color: #00014a;
+	border-radius: 50%;
+	text-align: center;
+}
+.box_nav .active{
+	background: #fe6c00;
+}
+.main_right{
+	width: 210px;
+	height: 361px;
+	background-color: #fff;
+	float: right;
+	overflow: hidden;
+}
+.case{
+	width: 210px;
+	height: 317px;
+	overflow: hidden;
+	border-bottom:1px #ebeae7 solid;
+}
+.case .part{
+	width: 210px;
+	height: 317px;
+	overflow: hidden;
+}
+.part ul li{
+	line-height: 29px;
+	overflow: hidden;
+	font-weight: bolder;
+}
+.part ul li span{
+	color: #fe6c00;
+	padding-left: 15px;
+}
+.part a{
+	color: #fe6c00;
+	padding-left: 7px;
+}
+.main_bl1{
+	width: 170px;
+	height: 126px;
+	float: left;
+	margin-top: 58px;
+	margin-left: -169.9px;
+	background-color: #fff;
+}
+.main_bl1 li{
+	line-height: 42px;
+}
+.main_bl1 a{
+	color: #855d38;
+}
+.main_bl1 a:hover {
+	color: #fe6c00;
+}
+.main_bl1 img{
+	padding-left: 6px;
+	padding-right: 6px;
+	vertical-align: middle;
+}
+.main_bl2{
+	width: 200px;
+	height: 183px;
+	float: left;
+	border-top:2px #fe6c00 solid;
+}
+.main_bl3{
+	width: 208px;
+	height: 184px;
+	float: right;
+	background-color: #fff;
+}
+.main_bl3 li{
+	margin-top: 7px;
+	margin-left: 16px;
+}
+.main_bl3 li:first-child img{
+	margin-right: 15px;
+}
+.main_bl3 input{
+	width: 123px;
+	height: 22px;
+}
+.main_bl3 li:first-child span{
+	margin-left: 7px;
+	color: #ff4d04;
+}
+.main_bl3 li:last-child{
+	width: 177px;
+	line-height: 25px;
+	text-align: center;
+	border-radius: 3px;
+	color: #fff;
+	background-color: #fe6c00;
+}
+.popup{
+	width: 130px;
+	height: 510px;
+	top: 80px;
+	right: 1px;
+	position: fixed;
+	z-index: 2;
+}
+.dis{
+	margin-top: 4px;
+}
+.popup ul{
+	float: left;
+}
+.popup ul li{
+	width: 130px;
+	position:fixed;
+}
+.popup ul li img{
+	float: left; 
+}
+.final{
+	width: 1180px;
+	height: 182px;
+	margin: 0 auto;
+}
+.final a:hover{
+	color: #fe6c00;
+}
+.final img{
+	float: left;
+}
+.final_ul li ul{	
+	margin: 30px 37px 30px 37px;	
+	font-size: 11px;
+	float: left; 
+}
+.final_ul li ul li{
+	line-height:  25px;
+}
+.final_ul a{
+	color: #666560;
+}
+.final_ul li ul li:first-child{
+	font-size: 14px;
+}
+.final_ul li:first-child ul{
+	margin-left: 85px;
+}
+.img1{
+	margin-left: 45px;
+	margin-top: 30px;
+}
+.last{
+	width: 1180px;
+	height: 175px;
+	margin: 0 auto;
+}
+.last a:hover{
+	color: #fe6c00;
+}
+.last ul{
+	margin-left: 255px;
+	margin-top: 15px;
+	display: inline-block;
+}
+.last ul li{
+	float: left;
+}
+.last li a{
+	padding:0 13px;
+	font-family: '微软雅黑';
+	color: #666560;
+	border-right:1px solid #a4a4a4;
+}
+.last li:last-child a{
+	border-right-style: none;
+}
+.last p{
+	margin-top: 8px;
+	text-align: center;
+	color: #9a9791;
+}
+.last_img1{
+	margin-left: 200px;
+}
